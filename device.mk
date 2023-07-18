@@ -426,7 +426,9 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    kernel/nothing/Asteroids \
+    kernel/nothing/Asteroids/vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
