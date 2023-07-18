@@ -82,6 +82,37 @@ BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/m
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/nothing/Asteroids/vendor
+TARGET_KERNEL_EXT_MODULES := \
+  qcom/opensource/audio-kernel \
+  qcom/opensource/bt-kernel \
+  qcom/opensource/camera-kernel \
+  qcom/opensource/dataipa \
+  qcom/opensource/datarmnet-ext/aps \
+  qcom/opensource/datarmnet-ext/mem \
+  qcom/opensource/datarmnet-ext/offload \
+  qcom/opensource/datarmnet-ext/perf \
+  qcom/opensource/datarmnet-ext/perf_tether \
+  qcom/opensource/datarmnet-ext/sch \
+  qcom/opensource/datarmnet-ext/shs \
+  qcom/opensource/datarmnet-ext/wlan \
+  qcom/opensource/datarmnet/core \
+  qcom/opensource/display-drivers \
+  qcom/opensource/dsp-kernel \
+  qcom/opensource/eva-kernel \
+  qcom/opensource/fingerprint \
+  qcom/opensource/graphics-kernel \
+  qcom/opensource/mm-drivers \
+  qcom/opensource/mm-sys-kernel/ubwcp \
+  qcom/opensource/mmrm-driver \
+  qcom/opensource/securemsm-kernel \
+  qcom/opensource/spu-kernel \
+  qcom/opensource/synx-kernel \
+  qcom/opensource/touch-drivers \
+  qcom/opensource/video-driver \
+  qcom/opensource/wlan/platform \
+  qcom/opensource/wlan/qcacld-3.0 \
+
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
