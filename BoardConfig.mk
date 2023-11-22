@@ -74,6 +74,8 @@ TARGET_KERNEL_CONFIG := gki_defconfig vendor/pineapple_GKI.config
 TARGET_KERNEL_SOURCE := kernel/nothing/sm7635
 
 # Partitions
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 24117248
 BOARD_INIT_BOOT_IMAGE_PARTITION_SIZE := 8388608
