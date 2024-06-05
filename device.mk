@@ -28,6 +28,11 @@ BOARD_API_LEVEL := 34
 BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_SHIPPING_API_LEVEL := 35
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

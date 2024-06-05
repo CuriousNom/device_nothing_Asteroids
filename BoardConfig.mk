@@ -85,6 +85,7 @@ TARGET_BOARD_PLATFORM := volcano
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
+$(call soong_config_set, ufsbsg, ufsframework, bsg)
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
