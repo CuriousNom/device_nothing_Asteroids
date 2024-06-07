@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
+# Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V4-ndk.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
