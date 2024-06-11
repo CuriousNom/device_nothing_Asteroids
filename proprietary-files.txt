@@ -2351,7 +2351,6 @@ vendor/etc/hal_uuid_map_config.xml
 vendor/etc/init.qti.fm.sh
 vendor/etc/libse-gto-hal.conf
 vendor/etc/license.lic
-vendor/etc/linker.config.pb
 vendor/etc/mem_logger_config.xml
 vendor/etc/microphone_characteristics.xml
 vendor/etc/mkshrc
