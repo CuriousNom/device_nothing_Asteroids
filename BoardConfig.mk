@@ -34,6 +34,9 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := kryo300
 
+# Audio
+$(call soong_config_set, android_hardware_audio, run_64bit, true)
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := volcano
 TARGET_NO_BOOTLOADER := true
