@@ -88,23 +88,7 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/com.dsi.ant@1.0.so
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service_64
-vendor/etc/init/android.hardware.audio.service_64.rc
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio@7.0-impl.so
-vendor/lib64/hw/android.hardware.audio@7.1-impl.so
-vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.volcano.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/lib_lvacfs.so
 -vendor/lib64/libagm.so
 vendor/lib64/libagmclient.so
@@ -216,9 +200,6 @@ vendor/etc/lvacfs_params/3mic/audiozoom_2.txt
 vendor/etc/lvacfs_params/3mic/audiozoom_4.txt
 vendor/firmware/tfa98xx.cnt
 
-# Automotive
-vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc
@@ -240,8 +221,6 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib64/libbluetooth_audio_session.so
-vendor/lib64/libbluetooth_audio_session_aidl.so
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
@@ -996,10 +975,7 @@ vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so
 
 # DRM
 vendor/apex/com.google.android.widevine.nonupdatable.apex
-vendor/bin/hw/android.hardware.drm-service.clearkey
-vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
-vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.xml
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
@@ -1039,7 +1015,6 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 vendor/bin/hw/android.hardware.biometrics.face-service.noth
 vendor/etc/init/android.hardware.biometrics.face-service.noth.rc
 vendor/etc/vintf/manifest/android.hardware.biometrics.face-service.noth.xml
-vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libstfaceunlockppl.so
 
 # Fingerprint
@@ -1133,9 +1108,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
-# Local time
-vendor/lib64/hw/local_time.default.so
-
 # Media
 etc/seccomp_policy/mediacodec.policy
 lib64/graphicbuffersource-aidl-ndk.so
@@ -1152,10 +1124,6 @@ vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-vendor/lib64/libOmxCore.so
-vendor/lib64/libcodec2_hidl@1.1.so
-vendor/lib64/libcodec2_hidl@1.2.so
-vendor/lib64/libcodec2_hidl_plugin.so
 vendor/lib64/libplatformconfig.so
 vendor/lib64/libqc2audio_base.so
 vendor/lib64/libqc2audio_basecodec.so
@@ -1583,9 +1551,6 @@ vendor/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/lib64/vendor.qti.imsrtpservice@3.1.so
 
-# RenderScript
-vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
-
 # Secure element
 vendor/bin/hw/android.hardware.secure_element-service.thales
 vendor/etc/init/android.hardware.secure_element_gto.rc
@@ -1606,12 +1571,8 @@ vendor/lib64/libspukeymintdeviceutils.so
 vendor/lib64/libspukeymintutils.so
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors-service.multihal
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
-vendor/etc/init/android.hardware.sensors-service-multihal.rc
-vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml
-vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/lib64/libhidparser.so
 vendor/lib64/libqsh.so
 vendor/lib64/libsensorslog.so
@@ -1700,17 +1661,6 @@ vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
 vendor/lib64/vendor.qti.hardware.servicetrackeraidl-V1-ndk.so
-
-# Soundtrigger
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib64/hw/sound_trigger.primary.volcano.so
-vendor/lib64/libVoiceSdk.so
-vendor/lib64/liblistensoundmodel2vendor.so
-vendor/lib64/libtensorflowlite_c.so
-vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal-service.qti
@@ -2110,8 +2060,6 @@ vendor/etc/res/images/charger/num7.png
 vendor/etc/res/images/charger/num8.png
 vendor/etc/res/images/charger/num9.png
 vendor/etc/res/images/charger/numpercent.png
-vendor/etc/res/images/default/charger/battery_fail.png
-vendor/etc/res/images/default/charger/battery_scale.png
 vendor/etc/richtapresources/alarm/arp.he
 vendor/etc/richtapresources/alarm/crab.he
 vendor/etc/richtapresources/alarm/fidget.he
@@ -2428,7 +2376,6 @@ vendor/lib64/libbacklight-calib.so
 vendor/lib64/libbase64.so
 vendor/lib64/libbatching.so
 vendor/lib64/libbatterylistener.so
-vendor/lib64/libbinderdebug.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
