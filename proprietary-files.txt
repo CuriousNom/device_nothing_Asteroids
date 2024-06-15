@@ -1193,10 +1193,7 @@ vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
 # Power
-vendor/bin/hw/android.hardware.power-service
-vendor/etc/init/android.hardware.power-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
-vendor/lib64/hw/power.default.so
 vendor/lib64/vendor.qti.hardware.power.powermodule-V1-ndk.so
 
 # Power configs
@@ -2167,7 +2164,6 @@ vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
 vendor/etc/vintf/manifest/memtrack_qti.xml
 vendor/etc/vintf/manifest/mwqem-saidl.xml
 vendor/etc/vintf/manifest/nfc-service-st.xml
-vendor/etc/vintf/manifest/power.xml
 vendor/etc/vintf/manifest/qcrilhook-saidl.xml
 vendor/etc/vintf/manifest/qms-saidl.xml
 vendor/etc/vintf/manifest/qtiradio-saidl.xml
