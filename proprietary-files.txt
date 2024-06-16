@@ -2403,7 +2403,6 @@ vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmfec.so
 vendor/lib64/libmlremosaicsnapshot.so
 vendor/lib64/libmm-hdcpmgr.so
-vendor/lib64/libmm-omxcore.so
 vendor/lib64/libnative-api.so
 vendor/lib64/libnicm_interface.so
 vendor/lib64/libnicm_internal.so
