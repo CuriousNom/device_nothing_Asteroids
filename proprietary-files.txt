@@ -1883,7 +1883,6 @@ vendor/bin/trusteduilistener
 vendor/bin/ubwcconvert
 vendor/bin/ubwcp_test64
 vendor/bin/vendor.dpmd
-vendor/bin/vendor.qti.qspa-service
 vendor/bin/vendor_cmd_tool
 vendor/bin/vmmgr
 vendor/bin/wdsdaemon
@@ -1946,7 +1945,6 @@ vendor/etc/init/qguard.rc
 vendor/etc/init/qmipriod.debug.rc
 vendor/etc/init/qmipriod.rc
 vendor/etc/init/qms.rc
-vendor/etc/init/qspa_vendor.rc
 vendor/etc/init/qttestservice.rc
 vendor/etc/init/qwesd.rc
 vendor/etc/init/shsusrd.rc
@@ -1964,7 +1962,6 @@ vendor/etc/init/vendor.qti.hardware.display.demura-service.rc
 vendor/etc/init/vendor.qti.hardware.lights.service.rc
 vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
-vendor/etc/init/vendor.qti.qspa-service.rc
 vendor/etc/init/vendor.qti.smp2p.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
@@ -2160,7 +2157,6 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.tetheroffload.service.xml
-vendor/etc/vintf/manifest/vendor.qti.qspa-service.xml
 vendor/etc/vintf/manifest_volcano.xml
 vendor/etc/Diag.cfg
 vendor/etc/Diag_audio.cfg
@@ -2579,7 +2575,6 @@ vendor/lib64/vendor.noth.hardware.charge-V1-ndk.so
 vendor/lib64/vendor.noth.hardware.sensor.sensor_extension-V1-ndk_platform.so
 vendor/lib64/vendor.noth.hardware.stability-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.camera.aon-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.qspa-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.common-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.common-helper.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.config-V1-ndk.so
