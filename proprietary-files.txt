@@ -100,7 +100,6 @@ vendor/lib64/libarmemlog.so
 vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libdiag.so
-vendor/lib64/libjson.so
 vendor/lib64/liblvacfs_wrapper.so
 vendor/lib64/liblx-ar_util.so
 vendor/lib64/liblx-osal.so
@@ -188,7 +187,6 @@ vendor/firmware/tfa98xx.cnt
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc
 vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so
-vendor/lib64/libqti_vndfwk_detect_vendor.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
 
@@ -464,7 +462,6 @@ vendor/lib64/libopencv3a.so
 vendor/lib64/libos.so
 vendor/lib64/libpfr.so
 vendor/lib64/libportrait_repair_qnn.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/librender_lib.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveCommon_stub.so
@@ -2545,8 +2542,6 @@ vendor/lib64/libvideoml.so
 vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvideotxr.so
 vendor/lib64/libvideoutils.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
-vendor/lib64/libvndfwk_detect_jni.qti_vendor.so
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libwa_opticalzoomfactor.so
@@ -2568,7 +2563,6 @@ vendor/lib64/vendor.qti.hardware.secureprocessor.common-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.common-helper.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.config-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.device-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.systemhelper@1.0.so
 vendor/product/media/audio/alarms/01_trad.ogg
 vendor/product/media/audio/alarms/02_crab.ogg
 vendor/product/media/audio/alarms/03_repeater.ogg
