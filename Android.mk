@@ -216,14 +216,6 @@ $(EGL_LIBS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(EGL_LIBS_SYMLINKS)
 
-MISOUND_LIBS_SYMLINKS := $(TARGET_OUT_VENDOR)/lib64/soundfx/
-$(MISOUND_LIBS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Creating Mi SoundFX symlinks: $@"
-	@mkdir -p $@
-	$(hide) ln -sf /vendor/lib64/libmisoundfx_ext.so $@libmisoundfx.so
-
-ALL_DEFAULT_INSTALLED_MODULES += $(MISOUND_LIBS_SYMLINKS)
-
 CAMERA_AON_LIBS_SYMLINKS := $(TARGET_OUT_VENDOR)/lib64/camera/
 $(CAMERA_AON_LIBS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "Creating camera AON symlinks: $@"
