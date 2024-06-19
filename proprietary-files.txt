@@ -113,18 +113,12 @@ vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libvui_intf.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.pal@1.0.so
+-vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
 # Audio (FX modules)
 vendor/lib64/soundfx/libAACeffect_NT.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libdynproc.so
 vendor/lib64/soundfx/libhapticgenerator.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libvolumelistener.so
@@ -1806,7 +1800,6 @@ vendor/bin/agmplay
 vendor/bin/agmvoiceui
 vendor/bin/ar_util_in_test_example
 vendor/bin/athdiag
-vendor/bin/audioadsprpcd
 vendor/bin/audiodsd2pcmtest
 vendor/bin/audioflacapp
 vendor/bin/climax
@@ -1975,7 +1968,6 @@ vendor/etc/init/vendor.noth.hardware.stability-service.rc
 vendor/etc/init/vendor.nothing.hardware.biometrics.fingerprint-service.rc
 vendor/etc/init/vendor.qsap.qapeservice.rc
 vendor/etc/init/vendor.qsap.sensors.rc
-vendor/etc/init/vendor.qti.audio-adsprpc-service.rc
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.qti.hardware.display.demura-service.rc
 vendor/etc/init/vendor.qti.hardware.lights.service.rc
@@ -2329,22 +2321,16 @@ vendor/lib64/libadaptlaunch.so
 vendor/lib64/libadm.so
 vendor/lib64/libadreno_app_profiles.so
 vendor/lib64/libadreno_compiler_cl.so
-vendor/lib64/libagm_compress_plugin.so
-vendor/lib64/libagm_mixer_plugin.so
-vendor/lib64/libagm_pcm_plugin.so
-vendor/lib64/libagmmixer.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libandroid_runtime_lazy.so
 vendor/lib64/libaodoptfeature.so
 vendor/lib64/libapengine.so
 vendor/lib64/libappclassifier.so
-vendor/lib64/libaudiochargerlistener.so
 vendor/lib64/libaudiofeaturestats.so
 vendor/lib64/libbacklight-calib.so
 vendor/lib64/libbase64.so
 vendor/lib64/libbatching.so
-vendor/lib64/libbatterylistener.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
@@ -2380,7 +2366,6 @@ vendor/lib64/libfastcrc.so
 vendor/lib64/libfeutils.so
 vendor/lib64/libffavc.so
 vendor/lib64/libfilefinder.so
-vendor/lib64/libfmpal.so
 vendor/lib64/libgame_enhance.so
 vendor/lib64/libgamepoweroptfeature.so
 vendor/lib64/libgdtap.so
@@ -2554,7 +2539,6 @@ vendor/lib64/libslimclient.so
 vendor/lib64/libsmemlog.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/libsndcardparser.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_dynamic_loader_stub.so
 vendor/lib64/libsns_registry_skel.so
