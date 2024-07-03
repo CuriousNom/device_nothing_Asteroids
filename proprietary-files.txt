@@ -1069,16 +1069,6 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
-# Power
-vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
-vendor/lib64/vendor.qti.hardware.power.powermodule-V1-ndk.so
-
-# Power configs
-vendor/etc/pwr/GamePowerOptFeature.xml
-vendor/etc/pwr/OffScreenPowerOptFeature.xml
-vendor/etc/pwr/PowerFeatureConfig.xml
-vendor/etc/pwr/VideoPowerOptFeature.xml
-
 # QCC
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
 system_ext/lib64/libqcc_file_agent_sys.so
@@ -1710,7 +1700,6 @@ vendor/bin/pktlogconf
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/bin/pmic_key_reset
-vendor/bin/poweropt-service
 vendor/bin/ppd
 vendor/bin/qcom-system-daemon
 vendor/bin/qdcmss
@@ -1801,7 +1790,6 @@ vendor/etc/init/nicmd.rc
 vendor/etc/init/nt_error_report.rc
 vendor/etc/init/nt_minidump_extractor.rc
 vendor/etc/init/nt_zramwriteback.rc
-vendor/etc/init/poweropt-service.rc
 vendor/etc/init/qdcmss.rc
 vendor/etc/init/qguard.rc
 vendor/etc/init/qmipriod.debug.rc
@@ -2159,7 +2147,6 @@ vendor/lib64/libadreno_app_profiles.so
 vendor/lib64/libadreno_compiler_cl.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
-vendor/lib64/libaodoptfeature.so
 vendor/lib64/libapengine.so
 vendor/lib64/libappclassifier.so
 vendor/lib64/libaudiofeaturestats.so
@@ -2202,7 +2189,6 @@ vendor/lib64/libfeutils.so
 vendor/lib64/libffavc.so
 vendor/lib64/libfilefinder.so
 vendor/lib64/libgame_enhance.so
-vendor/lib64/libgamepoweroptfeature.so
 vendor/lib64/libgdtap.so
 vendor/lib64/libgeofencing.so
 vendor/lib64/libgnss.so
@@ -2279,19 +2265,15 @@ vendor/lib64/libntcampipepb.so
 vendor/lib64/libntcamselector.so
 vendor/lib64/libntcamthread.so
 vendor/lib64/liboemaids_vendor.so
-vendor/lib64/liboffscreenpoweroptfeature.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libops.so
 vendor/lib64/libpalclient.so
 vendor/lib64/libpasrutils.so
 vendor/lib64/libperfioctl.so
 vendor/lib64/libpolygon.so
-vendor/lib64/libpowercallback.so
-vendor/lib64/libpowercore.so
 vendor/lib64/libprefapps.so
 vendor/lib64/libprekill.so
 vendor/lib64/libprocomp.so
-vendor/lib64/libpsmoptfeature.so
 vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libqapesdk.so
 vendor/lib64/libqc2audio_hwaudiocodec.so
@@ -2381,7 +2363,6 @@ vendor/lib64/libspukeymintprovision.so
 vendor/lib64/libsrc_jni_getPasrService.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssd.so
-vendor/lib64/libstandbyfeature.so
 vendor/lib64/libstreamparser.so
 vendor/lib64/libstreamprocessor.so
 vendor/lib64/libsubsystem_control.so
@@ -2398,7 +2379,6 @@ vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libubifocus.so
 vendor/lib64/libubwcp.so
 vendor/lib64/libvideoml.so
-vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvideotxr.so
 vendor/lib64/libvideoutils.so
 vendor/lib64/libvui_dmgr.so
