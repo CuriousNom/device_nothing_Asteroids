@@ -1042,17 +1042,6 @@ vendor/bin/hw/android.hardware.identity-service-qti
 vendor/etc/init/android.hardware.identity-service-qti.rc
 vendor/lib64/libqtiidentitycredential.so
 
-# IPA
-vendor/bin/ipacm
-vendor/bin/ipacm-diag
-vendor/etc/init/ipacm-diag.rc
-vendor/etc/init/ipacm.rc
-vendor/etc/IPACM_cfg.xml
-vendor/lib64/libipanat.so
-vendor/lib64/libnetfilter_conntrack.so
-vendor/lib64/libnfnetlink.so
-vendor/lib64/liboffloadhal.so
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 
@@ -2143,7 +2132,6 @@ vendor/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.tetheroffload.service.xml
 vendor/etc/vintf/manifest_volcano.xml
 vendor/etc/Diag.cfg
 vendor/etc/Diag_audio.cfg

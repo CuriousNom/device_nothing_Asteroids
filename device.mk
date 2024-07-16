@@ -173,6 +173,12 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    IPACM_Filter_cfg.xml
+
 # Identity
 PRODUCT_PACKAGES += \
     android.hardware.identity-V5-ndk.vendor
