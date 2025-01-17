@@ -1,4 +1,3 @@
-type glyph_app, domain;
 typeattribute glyph_app mlstrustedsubject;
 
 app_domain(glyph_app)
