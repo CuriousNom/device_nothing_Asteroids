@@ -1919,7 +1919,6 @@ vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/bin/GPTEE_Sample_client
 vendor/bin/KmInstallKeybox
-vendor/bin/PalTest
 vendor/bin/PktRspTest
 vendor/bin/STFlashTool
 vendor/bin/StoreKeybox
