@@ -943,8 +943,6 @@ vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so
 vendor/apex/com.google.android.widevine.nonupdatable.apex
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 vendor/etc/vintf/manifest/android.hardware.drm-service.xml
-vendor/lib64/mediacas/libclearkeycasplugin.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/libcpion.so
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/liboemcrypto.so
