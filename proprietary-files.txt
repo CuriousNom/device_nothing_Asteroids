@@ -1930,7 +1930,6 @@ vendor/bin/athdiag
 vendor/bin/audioadsprpcd
 vendor/bin/audiodsd2pcmtest
 vendor/bin/audioflacapp
-vendor/bin/boringssl_self_test64
 vendor/bin/checkpoint_gc
 vendor/bin/climax
 vendor/bin/cnss_cli
@@ -2054,7 +2053,6 @@ vendor/etc/dpm_vndr/vendor.dpm.conf
 vendor/etc/felica/common.cfg
 vendor/etc/felica/mfm.cfg
 vendor/etc/felica/mfs.cfg
-vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/dcfd.rc
 vendor/etc/init/diagcommd.rc
 vendor/etc/init/dlsc.rc
