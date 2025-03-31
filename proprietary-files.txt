@@ -145,7 +145,6 @@ vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/libMobileAPI_SHARED.so
-vendor/lib64/libvibratorutils.so
 
 # Audio configs
 etc/audio_effects.xml
@@ -1749,18 +1748,6 @@ vendor/etc/init/android.hardware.usb-service.qti.rc
 vendor/etc/init/android.hardware.usb.gadget-service.qti.rc
 vendor/etc/vintf/manifest/android.hardware.usb-service.qti.xml
 vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.qti.xml
-
-# Vibrator
-vendor/bin/hw/vendor.qti.hardware.vibrator.service
-vendor/etc/init/vendor.qti.hardware.vibrator.service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
-vendor/lib64/hw/vibrator.default.so
-vendor/lib64/libaacvibrator.so
-vendor/lib64/libics_haptic.so
-vendor/lib64/libqtivibratoreffect.so
-vendor/lib64/libqtivibratoreffectoffload.so
-vendor/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
-vendor/lib64/vendor.qti.hardware.vibrator.impl.so
 
 # Weaver
 vendor/bin/hw/android.hardware.weaver-service-spu-qti
