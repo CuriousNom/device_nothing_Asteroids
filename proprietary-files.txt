@@ -1888,13 +1888,11 @@ vendor/bin/athdiag
 vendor/bin/audioadsprpcd
 vendor/bin/audiodsd2pcmtest
 vendor/bin/audioflacapp
-vendor/bin/checkpoint_gc
 vendor/bin/climax
 vendor/bin/cnss_cli
 vendor/bin/cnss_diag
 vendor/bin/color_sampling_test
 vendor/bin/color_sampling_tool
-vendor/bin/cplay
 vendor/bin/ctrlapp_dut
 vendor/bin/debug-diag
 vendor/bin/diag-router
@@ -1907,7 +1905,6 @@ vendor/bin/diag_uart_log
 vendor/bin/diagcommd
 vendor/bin/dlsc
 vendor/bin/dppdaemon
-vendor/bin/dumpsys
 vendor/bin/e_loop
 vendor/bin/edgnss-daemon
 vendor/bin/embmsslServer
@@ -1960,7 +1957,6 @@ vendor/bin/qttestservice
 vendor/bin/qwesd
 vendor/bin/rpmbClient
 vendor/bin/sfdc_param_calibration
-vendor/bin/sg_write_buffer
 vendor/bin/shsusrd
 vendor/bin/sigma_dut
 vendor/bin/smcinvoke_example
@@ -2301,7 +2297,6 @@ vendor/etc/libse-gto-hal.conf
 vendor/etc/license.lic
 vendor/etc/mem_logger_config.xml
 vendor/etc/microphone_characteristics.xml
-vendor/etc/mkshrc
 vendor/etc/public.libraries.txt
 vendor/etc/qguard.json
 vendor/etc/qvirtmgr-vndr.json
