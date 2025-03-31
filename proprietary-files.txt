@@ -134,7 +134,6 @@ vendor/lib64/libMobileAPI_SHARED.so
 etc/audio_effects.xml
 vendor/etc/audio/sku_volcano/audio_effects.conf
 vendor/etc/audio/sku_volcano/audio_effects.xml
-vendor/etc/audio/sku_volcano/audio_policy_configuration.xml
 vendor/etc/audio/sku_volcano/audio_policy_volumes.xml
 vendor/etc/audio/sku_volcano/default_volume_tables.xml
 vendor/etc/audio/sku_volcano/mixer_paths_volcano6_mtp_wsa883x_wcd939x.xml
@@ -146,7 +145,6 @@ vendor/etc/audio/sku_volcano/mixer_paths_volcano_mtp_wsa883x_wcd939x.xml
 vendor/etc/audio/sku_volcano/mixer_paths_volcano_mtp_wsa883x_wcd939x_sku1.xml
 vendor/etc/audio/sku_volcano/mixer_paths_volcano_qrd.xml
 vendor/etc/audio/sku_volcano/mixer_paths_volcano_qrd_sku1.xml
-vendor/etc/audio/sku_volcano/r_submix_audio_policy_configuration.xml
 vendor/etc/audio/sku_volcano/resourcemanager_volcano6_mtp_wsa883x_wcd939x.xml
 vendor/etc/audio/sku_volcano/resourcemanager_volcano_cdp_wsa883x_wcd939x.xml
 vendor/etc/audio/sku_volcano/resourcemanager_volcano_cdp_wsa883x_wcd939x_sku1.xml
@@ -156,17 +154,10 @@ vendor/etc/audio/sku_volcano/resourcemanager_volcano_mtp_wsa883x_wcd939x.xml
 vendor/etc/audio/sku_volcano/resourcemanager_volcano_mtp_wsa883x_wcd939x_sku1.xml
 vendor/etc/audio/sku_volcano/resourcemanager_volcano_qrd.xml
 vendor/etc/audio/sku_volcano/resourcemanager_volcano_qrd_sku1.xml
-vendor/etc/audio/sku_volcano_qssi/audio_policy_configuration.xml
 vendor/etc/audio/sku_volcano_qssi/audio_policy_volumes.xml
 vendor/etc/audio/sku_volcano_qssi/default_volume_tables.xml
-vendor/etc/a2dp_audio_policy_configuration.xml
-vendor/etc/audio_policy_configuration.xml
 vendor/etc/audio_policy_volumes.xml
-vendor/etc/bluetooth_qti_audio_policy_configuration.xml
-vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
 vendor/etc/default_volume_tables.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
-vendor/etc/usb_audio_policy_configuration.xml
 
 # Audio calibration
 vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat
