@@ -102,4 +102,12 @@ PRODUCT_PACKAGES += \
 
 # fastbootd
 PRODUCT_PACKAGES += \
-     fastbootd
+    fastbootd
+
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservice \
+    vndservicemanager
+
+# Vendor
+$(call inherit-product, vendor/nothing/Asteroids/Asteroids-vendor.mk)
