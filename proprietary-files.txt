@@ -653,10 +653,6 @@ vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
-# CAS
-vendor/bin/hw/android.hardware.cas-service.example
-vendor/etc/vintf/manifest/android.hardware.cas-service.xml
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -2059,7 +2055,6 @@ vendor/etc/felica/common.cfg
 vendor/etc/felica/mfm.cfg
 vendor/etc/felica/mfs.cfg
 vendor/etc/init/boringssl_self_test.rc
-vendor/etc/init/cas-default.rc
 vendor/etc/init/dcfd.rc
 vendor/etc/init/diagcommd.rc
 vendor/etc/init/dlsc.rc
