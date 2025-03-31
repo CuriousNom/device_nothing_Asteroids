@@ -104,6 +104,7 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH)/hidl/manifest_odm.xml
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
