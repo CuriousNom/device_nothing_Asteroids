@@ -4,6 +4,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/nothing"
+    ],
 }
 
 install_symlink {
