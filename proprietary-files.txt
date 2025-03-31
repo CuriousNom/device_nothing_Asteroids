@@ -106,13 +106,13 @@ vendor/lib64/hw/audio.primary.volcano.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/lib_lvacfs.so
-vendor/lib64/libagm.so
+-vendor/lib64/libagm.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
-vendor/lib64/libar-pal.so
+-vendor/lib64/libar-pal.so
 vendor/lib64/libarmemlog.so
 vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
@@ -128,7 +128,7 @@ vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libvui_intf.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
