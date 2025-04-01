@@ -2072,8 +2072,6 @@ vendor/etc/vintf/manifest/deviceinfo-saidl.xml
 vendor/etc/vintf/manifest/dpm-saidl.xml
 vendor/etc/vintf/manifest/imsdcservice-saidl.xml
 vendor/etc/vintf/manifest/manifest_identity_credential.xml
-vendor/etc/vintf/manifest/manifest_non_qmaa.xml
-vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
 vendor/etc/vintf/manifest/mwqem-saidl.xml
 vendor/etc/vintf/manifest/nfc-service-st.xml
 vendor/etc/vintf/manifest/qcrilhook-saidl.xml
