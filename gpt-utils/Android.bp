@@ -23,7 +23,7 @@ ufsbsg_cc_defaults {
 }
 
 cc_library {
-    name: "libgptutils.peridot",
+    name: "libgptutils.taro",
     vendor: true,
     recovery_available: true,
     defaults: ["ufsbsg_defaults"],
@@ -31,21 +31,14 @@ cc_library {
         "gpt-utils.cpp",
         "recovery-ufs-bsg.cpp",
     ],
-    static_libs: [
-            "libbase",
-            "libedify",
-            "libotautil",
-    ],
     shared_libs: [
             "libcutils",
-            "libion",
             "liblog",
             "libz",
     ],
     cflags: [
         "-Wall",
         "-Wno-unused-parameter",
-        "-D_BSG_FRAMEWORK_KERNEL_HEADERS",
     ],
     sanitize: {
         cfi: false,
@@ -53,6 +46,7 @@ cc_library {
     owner: "qti",
     export_include_dirs: ["."],
     header_libs: [
-        "generated_kernel_headers",
+            "qti_kernel_headers",
+            "device_kernel_headers",
     ],
 }
