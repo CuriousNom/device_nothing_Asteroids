@@ -1603,7 +1603,6 @@ vendor/bin/hw/vendor.noth.hardware.stability-service
 vendor/bin/hw/vendor.nothing.hardware.biometrics.fingerprint-service
 vendor/bin/hw/vendor.qti.hardware.display.demura-service
 vendor/bin/hw/vendor.qti.hardware.lights.service
-vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/bin/GPTEE_Sample_client
 vendor/bin/KmInstallKeybox
 vendor/bin/PktRspTest
@@ -1768,7 +1767,6 @@ vendor/etc/init/vendor.qsap.sensors.rc
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.qti.hardware.display.demura-service.rc
 vendor/etc/init/vendor.qti.hardware.lights.service.rc
-vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 vendor/etc/init/vendor.qti.smp2p.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
