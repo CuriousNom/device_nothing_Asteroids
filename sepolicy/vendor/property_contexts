@@ -1,0 +1,9 @@
+# Dirac
+persist.vendor.dirac.     u:object_r:vendor_audio_prop:s0
+persist.vendor.newAAC.    u:object_r:vendor_audio_prop:s0
+persist.vendor.newdirac.  u:object_r:vendor_audio_prop:s0
+ro.vendor.dirac.          u:object_r:vendor_audio_prop:s0
+vendor.dirac.             u:object_r:vendor_audio_prop:s0
+
+# FastRPC
+persist.vendor.fastrpc.hwid_version      u:object_r:vendor_adsprpc_prop:s0
