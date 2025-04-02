@@ -1593,7 +1593,6 @@ vendor/app/CACertService/CACertService.apk
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/app/NothingEngineerService/NothingEngineerService.apk
 vendor/app/QFingerprintService/QFingerprintService.apk
-vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/app/TxPwrAdmin/TxPwrAdmin.apk
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/vendor.noth.hardware.camera-service
