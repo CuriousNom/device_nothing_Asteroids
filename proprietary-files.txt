@@ -161,7 +161,6 @@ vendor/firmware/tfa98xx.cnt
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc
 vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so
-vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
@@ -949,6 +948,9 @@ vendor/lib64/libwifiobserver.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss-V6-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 
 # GNSS configs
 vendor/etc/apdr.conf
@@ -1087,13 +1089,6 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
-vendor/bin/qcc-vendor
-vendor/etc/vintf/manifest/vendor.qti.qccvndhal_aidl-service.xml
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so
-vendor/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
-vendor/lib64/vendor.qti.qccvndhal_aidl-halimpl.so
 
 # QESD
 system_ext/etc/vintf/manifest/vendor.qti.qesdsys.service.xml
@@ -1655,7 +1650,6 @@ vendor/bin/hw/vendor.nothing.hardware.biometrics.fingerprint-service
 vendor/bin/hw/vendor.qti.hardware.display.demura-service
 vendor/bin/hw/vendor.qti.hardware.lights.service
 vendor/bin/hw/vendor.qti.psiclient@1.0-service
-vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/bin/GPTEE_Sample_client
 vendor/bin/KmInstallKeybox
 vendor/bin/PktRspTest
@@ -1730,8 +1724,6 @@ vendor/bin/qsap_qapeservice
 vendor/bin/qsap_sensors
 vendor/bin/qseecom_sample_client
 vendor/bin/qsh_wifi_test
-vendor/bin/qtigetprop
-vendor/bin/qtisetprop
 vendor/bin/qttestclient
 vendor/bin/qttestservice
 vendor/bin/qwesd
@@ -1797,7 +1789,6 @@ vendor/etc/init/init.nothing_printk.rc
 vendor/etc/init/init.nt_cit.rc
 vendor/etc/init/init.nt_logtool.rc
 vendor/etc/init/init.ntf.rc
-vendor/etc/init/init.qccvendor.rc
 vendor/etc/init/init.qlm-service.rc
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init/init.qti.media.rc
@@ -2179,6 +2170,7 @@ vendor/lib64/libbatching.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
+vendor/lib64/libsoc_helper.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcapiv2svacnnvendor.so
@@ -2385,7 +2377,6 @@ vendor/lib64/libsns_dynamic_loader_stub.so
 vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsns_remote_proc_state_stub.so
 vendor/lib64/libsnsapi-full.so
-vendor/lib64/libsoc_helper_jni.so
 vendor/lib64/libspl.so
 vendor/lib64/libspukeymintprovision.so
 vendor/lib64/libsrc_jni_getPasrService.so
