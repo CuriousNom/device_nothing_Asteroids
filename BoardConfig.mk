@@ -110,6 +110,9 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 # Platform
 TARGET_BOARD_PLATFORM := volcano
 
+# Fingerprint
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/nothing:libudfps_extension.nt
+
 # Hardware
 BOARD_USES_QCOM_HARDWARE := true
 
@@ -140,6 +143,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include hardware/nothing/sepolicy/qti/SEPolicy.mk
 
 # Vendor security patch
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)

@@ -362,6 +362,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/com.nxp.mifare.xml
 
+# Nt-fwk
+$(call inherit-product, hardware/nothing/nt-fwk/nt-fwk.mk)
+
+# QSSI overlays
+$(call inherit-product, hardware/nothing/overlay/qssi/qssi.mk)
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
