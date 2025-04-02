@@ -1031,8 +1031,6 @@ vendor/etc/libnfc-nci.conf
 
 # PASR
 vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
 # Perf
 system_ext/etc/perf/wlc_model.tflite
@@ -1063,11 +1061,6 @@ vendor/lib64/vendor.qti.hardware.perf2-V1-ndk.so
 
 # Perf IOP
 system_ext/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
 # QCC
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
@@ -1630,7 +1623,6 @@ vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/app/TxPwrAdmin/TxPwrAdmin.apk
 vendor/bin/hw/capabilityconfigstoretest
-vendor/bin/hw/pasrknob
 vendor/bin/hw/vendor.noth.hardware.camera-service
 vendor/bin/hw/vendor.noth.hardware.charge-service
 vendor/bin/hw/vendor.noth.hardware.sensor.sensor_extension-service
@@ -1810,27 +1802,12 @@ vendor/etc/init/vendor.qsap.sensors.rc
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/init/vendor.qti.hardware.display.demura-service.rc
 vendor/etc/init/vendor.qti.hardware.lights.service.rc
-vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 vendor/etc/init/vendor.qti.smp2p.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vmmgr.rc
 vendor/etc/init/vndservicemanager.rc
-vendor/etc/lm/prekill/prekill_2GB.data
-vendor/etc/lm/prekill/prekill_4GB.data
-vendor/etc/lm/prekill/prekill_6GB.data
-vendor/etc/lm/AdaptLaunchFeature.xml
-vendor/etc/lm/AppClassifierFeature.xml
-vendor/etc/lm/LightningLaunchesFeature.xml
-vendor/etc/lm/PreKillFeature.xml
-vendor/etc/lm/PrefAppsFeature.xml
-vendor/etc/lm/ProCompFeature.xml
-vendor/etc/lm/QAPE.xml
-vendor/etc/lm/QGPE.xml
-vendor/etc/lm/QGPEActionMap.xml
-vendor/etc/lm/SilkyScrollsFeature.xml
-vendor/etc/lm/sPLHFeature.xml
 vendor/etc/media_volcano_v0/video_system_specs.json
 vendor/etc/media_volcano_v1/video_system_specs.json
 vendor/etc/mobile/mobile.config
@@ -2141,14 +2118,11 @@ vendor/lib64/libWlanServiceJni.so
 vendor/lib64/lib_bt_aptx.so
 vendor/lib64/lib_bt_ble.so
 vendor/lib64/lib_bt_bundle.so
-vendor/lib64/libadaptlaunch.so
 vendor/lib64/libadm.so
 vendor/lib64/libadreno_app_profiles.so
 vendor/lib64/libadreno_compiler_cl.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
-vendor/lib64/libapengine.so
-vendor/lib64/libappclassifier.so
 vendor/lib64/libaudiofeaturestats.so
 vendor/lib64/libbacklight-calib.so
 vendor/lib64/libbase64.so
@@ -2218,11 +2192,8 @@ vendor/lib64/libkcl.so
 vendor/lib64/libkernelmanager.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/liblearningmodule.so
-vendor/lib64/liblightninglaunches.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
-vendor/lib64/liblmthermallistner.so
-vendor/lib64/liblmutils-ns.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/libloadtrusteduiapp.so
 vendor/lib64/libloc_api_wds.so
@@ -2241,8 +2212,6 @@ vendor/lib64/libmasc.so
 vendor/lib64/libmcs.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmdsprpc.so
-vendor/lib64/libmemperfd.so
-vendor/lib64/libmeters-ns.so
 vendor/lib64/libmeters.so
 vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmfec.so
@@ -2268,14 +2237,10 @@ vendor/lib64/liboemaids_vendor.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libops.so
 vendor/lib64/libpalclient.so
-vendor/lib64/libpasrutils.so
 vendor/lib64/libperfioctl.so
 vendor/lib64/libpolygon.so
 vendor/lib64/libprefapps.so
-vendor/lib64/libprekill.so
-vendor/lib64/libprocomp.so
 vendor/lib64/libq3dtools_adreno.so
-vendor/lib64/libqapesdk.so
 vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/libqc2audio_swaudiocodec.so
 vendor/lib64/libqcci_legacy.so
@@ -2324,7 +2289,6 @@ vendor/lib64/libqsh_ble_pb.so
 vendor/lib64/libqsh_wifi_test.so
 vendor/lib64/libqshcamera.so
 vendor/lib64/libqtbase.so
-vendor/lib64/libqti-iopd.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-qesdk-secure.so
 vendor/lib64/libqti-utils.so
@@ -2347,7 +2311,6 @@ vendor/lib64/libsensorcal.so
 vendor/lib64/libsfeShiftExtrapolation.so
 vendor/lib64/libsgutils2.so
 vendor/lib64/libsi.so
-vendor/lib64/libsilkyscrolls.so
 vendor/lib64/libskewknob.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libsmemlog.so
@@ -2360,7 +2323,6 @@ vendor/lib64/libsns_remote_proc_state_stub.so
 vendor/lib64/libsnsapi-full.so
 vendor/lib64/libspl.so
 vendor/lib64/libspukeymintprovision.so
-vendor/lib64/libsrc_jni_getPasrService.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssd.so
 vendor/lib64/libstreamparser.so
