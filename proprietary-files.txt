@@ -1719,7 +1719,6 @@ vendor/bin/hdcp2p2prov
 vendor/bin/ims-dataservice-daemon
 vendor/bin/imsdaemon
 vendor/bin/irsc_util
-vendor/bin/loadalgo
 vendor/bin/mcs_test
 vendor/bin/mlid
 vendor/bin/mm-audio-ftm
