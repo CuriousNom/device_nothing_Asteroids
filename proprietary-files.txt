@@ -1014,16 +1014,12 @@ vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-vendor/lib64/libplatformconfig.so
 vendor/lib64/libqc2audio_base.so
 vendor/lib64/libqc2audio_basecodec.so
 vendor/lib64/libqc2audio_core.so
 vendor/lib64/libqc2audio_hooks.so
 vendor/lib64/libqc2audio_platform.so
 vendor/lib64/libqc2audio_utils.so
-vendor/lib64/libstagefright_aidl_bufferpool2.so
-vendor/lib64/libstagefright_bufferpool@2.0.1.so
-vendor/lib64/libstagefrighthw.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 
 # Media configs
