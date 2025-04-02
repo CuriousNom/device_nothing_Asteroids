@@ -2354,7 +2354,6 @@ vendor/lib64/libpowercore.so
 vendor/lib64/libprefapps.so
 vendor/lib64/libprekill.so
 vendor/lib64/libprocomp.so
-vendor/lib64/libpsi.so
 vendor/lib64/libpsmoptfeature.so
 vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libqapesdk.so
