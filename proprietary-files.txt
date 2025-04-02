@@ -2228,7 +2228,6 @@ vendor/lib64/libadreno_app_profiles.so
 vendor/lib64/libadreno_compiler_cl.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
-vendor/lib64/libandroid_runtime_lazy.so
 vendor/lib64/libaodoptfeature.so
 vendor/lib64/libapengine.so
 vendor/lib64/libappclassifier.so
