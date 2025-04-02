@@ -1399,9 +1399,6 @@ vendor/bin/hw/android.hardware.secure_element-service.thales
 vendor/etc/init/android.hardware.secure_element_gto.rc
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 
-# Secure element (power manager)
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-
 # Security
 vendor/bin/hw/android.hardware.security.keymint-service-qti
 vendor/bin/hw/android.hardware.security.keymint-service-spu-qti
