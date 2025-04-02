@@ -477,11 +477,8 @@ vendor/lib64/libvega_common.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libwa_sat.so
 vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.offlinecamera-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.camera.offlinecamera-V2-ndk.so
 vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 # Camera configs
 vendor/etc/camera/ancsat/sat_mecp.bin
@@ -2493,7 +2490,6 @@ vendor/lib64/vendor.noth.hardware.camera-service-impl.so
 vendor/lib64/vendor.noth.hardware.charge-V1-ndk.so
 vendor/lib64/vendor.noth.hardware.sensor.sensor_extension-V1-ndk_platform.so
 vendor/lib64/vendor.noth.hardware.stability-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.camera.aon-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.common-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.common-helper.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.config-V1-ndk.so
