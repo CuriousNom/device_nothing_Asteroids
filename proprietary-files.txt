@@ -1211,7 +1211,6 @@ vendor/etc/vintf/manifest/android.hardware.radio.network.xml
 vendor/etc/vintf/manifest/android.hardware.radio.sap.xml
 vendor/etc/vintf/manifest/android.hardware.radio.sim.xml
 vendor/etc/vintf/manifest/android.hardware.radio.voice.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.embmssl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.am.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.lpa.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
@@ -1262,9 +1261,6 @@ vendor/lib64/qcrild_libqcrilnrutils.so
 vendor/lib64/qtiPeripheralMgr.so
 vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
-vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
-vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
-vendor/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.am-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
@@ -1698,7 +1694,6 @@ vendor/bin/dlsc
 vendor/bin/dppdaemon
 vendor/bin/e_loop
 vendor/bin/edgnss-daemon
-vendor/bin/embmsslServer
 vendor/bin/engine-service
 vendor/bin/feature_enabler_client
 vendor/bin/fm_qsoc_patches
@@ -1803,7 +1798,6 @@ vendor/etc/init/feature_enabler_client.rc
 vendor/etc/init/ims-dataservice-daemon.rc
 vendor/etc/init/imsdaemon.rc
 vendor/etc/init/init.debug_policy.rc
-vendor/etc/init/init.embmssl_server.rc
 vendor/etc/init/init.nothing_printk.rc
 vendor/etc/init/init.nt_cit.rc
 vendor/etc/init/init.nt_logtool.rc
@@ -2224,7 +2218,6 @@ vendor/lib64/libdrmtime.so
 vendor/lib64/libdsd2pcm.so
 vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
-vendor/lib64/libembmsservice.so
 vendor/lib64/libengineplugin.so
 vendor/lib64/libesesbprovision.so
 vendor/lib64/libfastcrc.so
