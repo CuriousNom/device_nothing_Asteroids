@@ -631,8 +631,6 @@ system_ext/lib64/vendor.qti.latency@2.1.so
 system_ext/lib64/vendor.qti.latency@2.2.so
 system_ext/lib64/vendor.qti.latency@2.3.so
 vendor/app/CneApp/CneApp.apk
-vendor/bin/hw/vendor.qti.hardware.factory-service
-vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
@@ -666,11 +664,8 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/init/cnd.rc
-vendor/etc/init/vendor.qti.hardware.factory-service.rc
-vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.data.connectionaidl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.data.iwlandata.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.factory.ifactory.xml
 vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libdsutils.so
@@ -703,9 +698,6 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.hardware.data.lce@1.0.so
 vendor/lib64/vendor.qti.hardware.data.lceaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.data.qmiaidlservice-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.factory-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.factory@1.0.so
-vendor/lib64/vendor.qti.hardware.factory@1.1.so
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
 vendor/lib64/vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
@@ -1006,9 +998,7 @@ vendor/etc/media_codecs_performance_volcano_v0.xml
 vendor/etc/media_codecs_performance_volcano_v1.xml
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_codecs_volcano_v0.xml
-vendor/etc/media_codecs_volcano_v1.xml
 vendor/etc/media_profiles.xml
-vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_volcano_v0.xml
 vendor/etc/media_profiles_volcano_v0_Base.xml
 vendor/etc/media_profiles_volcano_v0_Pro.xml
@@ -1476,21 +1466,10 @@ vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetrackeraidl-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
 
-# Thermal
-vendor/bin/hw/android.hardware.thermal-service.qti
-vendor/etc/init/android.hardware.thermal-service.qti.rc
-vendor/etc/vintf/manifest/android.hardware.thermal-service.qti.xml
-
 # Thermal (Qualcomm)
 system_ext/lib64/vendor.qti.hardware.limits@1.0.so
 system_ext/lib64/vendor.qti.hardware.limits@1.1.so
-vendor/bin/hw/vendor.qti.hardware.limits@1.2-service
-vendor/etc/init/vendor.qti.hardware.limits-service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
 vendor/lib64/libthermalclient.so
-vendor/lib64/vendor.qti.hardware.limits@1.0.so
-vendor/lib64/vendor.qti.hardware.limits@1.1.so
-vendor/lib64/vendor.qti.hardware.limits@1.2.so
 
 # Thermal configs
 vendor/etc/thermal-engine.conf
@@ -1682,7 +1661,6 @@ vendor/bin/irsc_util
 vendor/bin/mcs_test
 vendor/bin/mlid
 vendor/bin/mm-audio-ftm
-vendor/bin/mmid
 vendor/bin/nicmd
 vendor/bin/nt_error_report
 vendor/bin/nt_gen_zramwriteback_fstab
@@ -1721,13 +1699,11 @@ vendor/bin/ssgqmigd
 vendor/bin/ssgqmigd64
 vendor/bin/stfactorydemo-vendor
 vendor/bin/test_diag
-vendor/bin/thermal-engine-v2
 vendor/bin/trusteduilistener
 vendor/bin/ubwcconvert
 vendor/bin/ubwcp_test64
 vendor/bin/vendor.dpmd
 vendor/bin/vendor_cmd_tool
-vendor/bin/vmmgr
 vendor/bin/wdsdaemon
 vendor/bin/xz
 vendor/etc/aac/ID05-2_6kHz.txt
@@ -1772,7 +1748,6 @@ vendor/etc/init/init.qti.media.rc
 vendor/etc/init/init.qti.qcv.rc
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/init.vendor.wlan.rc
-vendor/etc/init/init_thermal-engine-v2.rc
 vendor/etc/init/loc-launcher.rc
 vendor/etc/init/nfc-service-st.rc
 vendor/etc/init/nicmd.rc
@@ -1803,10 +1778,7 @@ vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 vendor/etc/init/vendor.qti.smp2p.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/etc/init/vmmgr.rc
 vendor/etc/init/vndservicemanager.rc
-vendor/etc/media_volcano_v0/video_system_specs.json
-vendor/etc/media_volcano_v1/video_system_specs.json
 vendor/etc/mobile/mobile.config
 vendor/etc/models/acd/environment.eai
 vendor/etc/models/acd/event.eai
@@ -2021,7 +1993,6 @@ vendor/etc/telephony_packages.xml
 vendor/etc/ueventd.rc
 vendor/etc/usb_compositions.conf
 vendor/etc/usecaseKvManager.xml
-vendor/etc/vmmgr.conf
 vendor/firmware/100_Haptic.bin
 vendor/firmware/101_Haptic.bin
 vendor/firmware/DW9785.bin
@@ -2356,10 +2327,6 @@ vendor/lib64/vendor.noth.hardware.camera-service-impl.so
 vendor/lib64/vendor.noth.hardware.charge-V1-ndk.so
 vendor/lib64/vendor.noth.hardware.sensor.sensor_extension-V1-ndk_platform.so
 vendor/lib64/vendor.noth.hardware.stability-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.secureprocessor.common-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.secureprocessor.common-helper.so
-vendor/lib64/vendor.qti.hardware.secureprocessor.config-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.secureprocessor.device-V1-ndk.so
 vendor/product/media/audio/alarms/01_trad.ogg
 vendor/product/media/audio/alarms/02_crab.ogg
 vendor/product/media/audio/alarms/03_repeater.ogg
