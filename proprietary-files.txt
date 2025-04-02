@@ -1700,7 +1700,6 @@ vendor/bin/fm_qsoc_patches
 vendor/bin/fmconfig
 vendor/bin/fmfactorytest
 vendor/bin/fmfactorytestserver
-vendor/bin/ftmdaemon
 vendor/bin/gpu_counter_producer
 vendor/bin/hal_proxy_daemon
 vendor/bin/hdcp1prov
@@ -1712,7 +1711,6 @@ vendor/bin/mcs_test
 vendor/bin/mlid
 vendor/bin/mm-audio-ftm
 vendor/bin/mmid
-vendor/bin/myftm
 vendor/bin/nicmd
 vendor/bin/nt_error_report
 vendor/bin/nt_gen_zramwriteback_fstab
@@ -2049,14 +2047,6 @@ vendor/etc/display_refresh_rate_config.json
 vendor/etc/excluded-input-devices.xml
 vendor/etc/first_zramwriteback.fstab
 vendor/etc/fstab.qcom
-vendor/etc/ftm_test_config
-vendor/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x-snd-card
-vendor/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x_sku1-snd-card
-vendor/etc/ftm_test_config_volcano-mtp-wsa883x_sku1-snd-card
-vendor/etc/ftm_test_config_volcano-mtp-wsa883x_wcd939x-snd-card
-vendor/etc/ftm_test_config_volcano-mtp-wsa883x_wcd939x_sku1-snd-card
-vendor/etc/ftm_test_config_volcano-qrd-wsa883x-snd-card
-vendor/etc/ftm_test_config_volcano-qrd-wsa883x_sku1-snd-card
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/hal_uuid_map_JPN.xml
@@ -2151,7 +2141,6 @@ vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/deviceInfoServiceModuleNr.so
-vendor/lib64/ftm_fm_lib.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libCB.so
