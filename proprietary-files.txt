@@ -1588,7 +1588,6 @@ odm/etc/ueventd.rc
 odm/etc/vintf/manifest_JPN.xml
 odm/overlayfs_origin/base/etc/camera/camxoverridesettings.txt
 odm/overlayfs_origin/pro/etc/camera/camxoverridesettings.txt
-odm/overlayfs_origin/system_ext/ldu/app/LiveDemo.apk
 vendor/app/CACertService/CACertService.apk
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/app/NothingEngineerService/NothingEngineerService.apk
