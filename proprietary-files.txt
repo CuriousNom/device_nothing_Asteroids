@@ -1719,10 +1719,7 @@ vendor/bin/spu_install_keybox
 vendor/bin/ssc_drva_test
 vendor/bin/ssgqmigd
 vendor/bin/ssgqmigd64
-vendor/bin/ssr_diag
-vendor/bin/ssr_setup
 vendor/bin/stfactorydemo-vendor
-vendor/bin/subsystem_ramdump
 vendor/bin/test_diag
 vendor/bin/thermal-engine-v2
 vendor/bin/trusteduilistener
