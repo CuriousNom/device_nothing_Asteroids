@@ -74,44 +74,14 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := gki_defconfig vendor/pineapple_GKI.config
 TARGET_KERNEL_SOURCE := kernel/nothing/sm7635
 
-# Kernel modules
-BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules.blocklist
-BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE)
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.vendor_boot))
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
-BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
-
-TARGET_KERNEL_EXT_MODULE_ROOT := kernel/nothing/Asteroids/vendor
-TARGET_KERNEL_EXT_MODULES := \
-  qcom/opensource/audio-kernel \
-  qcom/opensource/bt-kernel \
-  qcom/opensource/camera-kernel \
-  qcom/opensource/dataipa \
-  qcom/opensource/datarmnet-ext/aps \
-  qcom/opensource/datarmnet-ext/mem \
-  qcom/opensource/datarmnet-ext/offload \
-  qcom/opensource/datarmnet-ext/perf \
-  qcom/opensource/datarmnet-ext/perf_tether \
-  qcom/opensource/datarmnet-ext/sch \
-  qcom/opensource/datarmnet-ext/shs \
-  qcom/opensource/datarmnet-ext/wlan \
-  qcom/opensource/datarmnet/core \
-  qcom/opensource/display-drivers \
-  qcom/opensource/dsp-kernel \
-  qcom/opensource/eva-kernel \
-  qcom/opensource/fingerprint \
-  qcom/opensource/graphics-kernel \
-  qcom/opensource/mm-drivers \
-  qcom/opensource/mm-sys-kernel/ubwcp \
-  qcom/opensource/mmrm-driver \
-  qcom/opensource/securemsm-kernel \
-  qcom/opensource/spu-kernel \
-  qcom/opensource/synx-kernel \
-  qcom/opensource/touch-drivers \
-  qcom/opensource/video-driver \
-  qcom/opensource/wlan/platform \
-  qcom/opensource/wlan/qcacld-3.0 \
+# Kernel - prebuilt
+TARGET_FORCE_PREBUILT_KERNEL := true
+ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/kernel
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)-kernel/dtb.img
+BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
+endif
 
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
